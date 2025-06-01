@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "RSM Formatting Box Toggle",
+  "version": "1.0",
+  "description": "Toggle the formatting box on RSM homework site.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://homework.russianschool.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 
